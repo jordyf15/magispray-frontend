@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display:flex;
+    min-height: 100vh;
+}
+#right-div{
+    background-image: url('../images/room-bg.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 55%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#spray-img{
+    height: 65%;
+}
+#left-div{
+    width: 45%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+}
+header a{
+    padding: 20px 0;
+    color: #303030;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+header a:hover{
+    text-decoration: underline;
+}
+main{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+main div {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    flex-grow: 1;
+    padding: 60px 0;
+    position: relative;
+}
+#half-round-decor{
+    position: absolute;
+    background-color: white;
+    z-index: 2;
+    border-radius: 100px;
+    top: 0px;
+    right: 0px;
+    width: 150px;
+    height: 100%;
+    transform: translate(75px);
+}
+main div * {
+    margin-bottom: 20px;
+}
+main div h1{
+    font-weight: bolder;
+    font-size: 70px;
+    color: #AF7D77;
+}
+main div p{
+    color: #4F4949;
+    font-size: 17px;
+}
+main div div{
+    margin-bottom: 60px;
+    padding: 0 50px;
+}
+main div a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #C6948E;
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+main div a:hover{
+    background-color: white;
+    color: #C6948E;
+    border: 3px solid #C6948E;
+}

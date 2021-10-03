@@ -21,7 +21,7 @@ main{
     font-family: 'Roboto', sans-serif;
     background-color: white;
     width: 40%;
-    height: 85vh;
+    min-height: 85vh;
     border-radius: 30px;
 }
 
@@ -81,7 +81,7 @@ label{
 #payment-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-top: 10px;
     font-size: 18px;

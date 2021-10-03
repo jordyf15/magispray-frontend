@@ -4,6 +4,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    scroll-behavior: smooth;
+}
 #landing-section{
     display: flex;
     min-height: 100vh;
@@ -95,4 +98,19 @@
     background-color: white;
     color: #C6948E;
     border: 3px solid #C6948E;
+}
+
+#product-section{
+    min-height: 100vh;
+    background-color:pink;
+}
+
+#mobile-section{
+    min-height: 100vh;
+    background-color: orange;
+}
+
+#about-us-section{
+    min-height: 100vh;
+    background-color: violet;
 }

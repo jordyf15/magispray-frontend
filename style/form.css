@@ -112,3 +112,7 @@ label{
 .radiobtn{
     display: none;
 }
+.radiobtn:checked+label { 
+    background-color: rgba(194, 194, 194, 0.75);
+    box-shadow: none;
+}

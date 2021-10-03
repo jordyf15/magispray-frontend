@@ -48,7 +48,6 @@
     flex-grow: 1;
     display: flex;
     align-items: center;
-    position: relative;
 }
 #landing-main div {
     text-align: center;

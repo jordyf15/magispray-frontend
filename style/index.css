@@ -107,11 +107,6 @@ body{
     background-color: orange;
 }
 
-#about-us-section{
-    min-height: 100vh;
-    background-color: violet;
-}
-
 /* product-page css start */
 #product-section{
     display: flex;
@@ -190,4 +185,137 @@ body{
     text-align: center;
     text-decoration: none;
     padding: 13px;
+}
+
+#about-us-section{
+    min-height: 100vh;
+}
+
+#about-us-section section {
+    font-family: 'Roboto', sans-serif;
+}
+#about-us-banner{
+    background-image: url('../images/spray-spraying.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about-us-banner h1{
+    color: white;
+    font-size: 70px;
+    border: 5px solid white;
+    border-radius: 15px;
+    padding: 5px 60px;
+}
+
+#vision-mission-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    justify-content: space-evenly;
+    /* background-color: pink; */
+    position: relative;
+}
+
+#vision-mission-container div{
+    border: solid 2px black;
+    width: 80%;
+    padding: 10px 40px;
+    border-radius: 45px;
+}
+
+#vision-mission-container div h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#vision-mission-container div p{
+    color: #6F6F6F;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.line-decor{
+    height: 2px;
+    border: solid 1px black;
+    width: 75vw;
+    margin: auto;
+}
+
+#team-section{
+    width: 75vw;
+    margin: auto;
+    padding: 40px 0;
+}
+
+#team-section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#team-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 90px;
+    grid-row-gap: 35px;
+   
+}
+
+.team-member{
+    display: flex;
+    padding: 20px;
+    border: solid 2px black;
+    border-radius: 50px;
+}
+
+.team-member-name{
+    font-weight: bold;
+    font-size: 24px;
+}
+.team-member-contact{
+    color: #6F6F6F;
+}
+.fas{
+    color: black;
+}
+
+.team-member div{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.team-images{
+    width: 100px;
+}
+
+#contact-section{
+    padding: 40px 0 0;
+    width: 75vw;
+    margin: auto;
+}
+
+#contact-section h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact .fas, .contact .fab{
+    font-size: 70px;
+    margin-right: 45px;
 }

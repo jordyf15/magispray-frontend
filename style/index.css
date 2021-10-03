@@ -100,10 +100,7 @@ body{
     border: 3px solid #C6948E;
 }
 
-#product-section{
-    min-height: 100vh;
-    background-color:pink;
-}
+
 
 #mobile-section{
     min-height: 100vh;
@@ -113,4 +110,89 @@ body{
 #about-us-section{
     min-height: 100vh;
     background-color: violet;
+}
+
+/* product-page css start */
+#product-section{
+    display: flex;
+    min-height: 100vh;
+    background-color: #4A4E51;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-evenly;
+}
+
+#product-right
+{
+    width: 45%;
+    display: flex;
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+
+#product-right div h1{
+    font-weight: bolder;
+    font-size: 70px;
+    color: #AF7D77;
+}
+
+#content
+{
+    display: inline-block;
+}
+
+#title
+{
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+#subtitle
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #4F4949;
+    font-size: 17px;
+}
+
+#first
+{
+    margin-bottom: 30px;
+}
+
+#product-left
+{
+    background-image: url(../images/product-img.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    width: 55%;
+}
+
+#half-round-decor-product{
+    position: absolute;
+    background-color: white;
+    border-top-left-radius: 75px;
+    border-bottom-left-radius: 75px;
+    top: 20%;
+    left: 0px;
+    width: 75px;
+    height: 60%;
+    transform: translate(-75px);
+}
+
+#button-up
+{
+    position: fixed;
+    font-size: 20px;
+    z-index: 3;
+    left: 92%;
+    top: 87%;
+    background-color: rgb(130, 255, 172);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    padding: 13px;
 }

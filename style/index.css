@@ -127,6 +127,7 @@ body{
     display: flex;
     text-align: center;
     background-color: white;
+    align-items: center;
     position: relative;
 }
 
@@ -138,26 +139,20 @@ body{
 
 #content
 {
-    display: inline-block;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-#title
-{
-    margin-top: 150px;
-    margin-bottom: 30px;
+#content * {
+    margin-bottom: 20px;
 }
 
-#subtitle
-{
-    margin-left: 20px;
-    margin-right: 20px;
+#content p {
+    padding: 0 20px;
     color: #4F4949;
     font-size: 17px;
-}
-
-#first
-{
-    margin-bottom: 30px;
 }
 
 #product-left

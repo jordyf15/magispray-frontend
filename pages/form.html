@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MagiSpray</title>
+    <link rel="stylesheet" href="../style/form.css">
+</head>
+<body>
+    <main>
+        <h1>Order Details</h1>
+        <form>
+            <div>
+                <label for="fullname">Full Name</label>
+                <input class='inputbox' type="text" id="fullname" name="fullname" required>
+            </div>
+            <div>
+                <label for="phonenumber">Phone Number</label>
+                <input class='inputbox' type="number" id="phonenumber" name="phonenumber" required>
+            </div>
+            <div>
+                <label for="email">Email Address</label>
+                <input class='inputbox' type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="address">Delivery Address</label>
+                <input class='inputbox' type="text" id="address" name="address" required>
+            </div>
+            <div id='payment-container'>
+                <label for="payment" id='payment-title'> Payment Method</label>
+                <div id='payment-methods'>
+                    <label class='rb-lbl' for="ovo"><img class='rb-img' src='../images/logo-ovo.png'></label>
+                    <input class='radiobtn' type='radio' id='ovo' name='payment' value='ovo'>
+
+                    <label class='rb-lbl' for="gopay"><img class='rb-img' src='../images/logo-gopay.png'></label>
+                    <input class='radiobtn' type='radio' id='gopay' name='payment' value='gopay'>
+                    
+                    <label class='rb-lbl' for="dana"><img class='rb-img' src='../images/logo-dana.png'></label>
+                    <input class='radiobtn' type='radio' id='dana' name='payment' value='dana'>
+                    
+                    <label class='rb-lbl' for="shopeepay"><img class='rb-img' src='../images/logo-shopee.png'></label>
+                    <input class='radiobtn' type='radio' id='shopeepay' name='payment' value='shopeepay'>
+                </div>
+            </div>
+            <button id='order-btn'>Order</button>
+        </form>
+    </main>
+</body>
+</html>

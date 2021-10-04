@@ -171,6 +171,40 @@ body{
     transform: translate(-75px);
 }
 
+#mobile-section
+{
+    display: flex;
+    min-height: 100vh;
+    background-color: #414D5B;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-evenly;
+}
+
+#mobile-left
+{
+    width: 45%;
+    display: flex;
+    text-align: center;
+    background-color: white;
+    align-items: center;
+    position: relative;
+}
+
+#mobile-right
+{
+    background-image: url(../images/mobile-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    width: 55%;
+}
+
+#mobile-left div h1{
+    font-weight: bolder;
+    font-size: 70px;
+    color: #AF7D77;
+}
+
 #button-up
 {
     position: fixed;
@@ -178,7 +212,7 @@ body{
     z-index: 3;
     left: 92%;
     top: 87%;
-    background-color: rgb(130, 255, 172);
+    background-color: #C6948E;
     height: 50px;
     width: 50px;
     border-radius: 50%;

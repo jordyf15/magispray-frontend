@@ -1,0 +1,77 @@
+#popup-bg{
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(41, 41, 41, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#notify-form{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 500px;
+    width: 40%;
+    padding: 30px 0;
+    border-radius: 30px;
+    position: relative;
+}
+
+#notify-form *{
+    margin-top: 20px;
+}
+
+#form-close-button{
+    position: absolute;
+    top: 0px; 
+    right: 30px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    margin: 0px;
+}
+
+#form-text-container{
+    margin-top: 0;
+}
+
+#title-form{
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 0;
+}
+#subtitle-form{
+    font-size: 12px;
+    color: #636363;
+    margin-top: 0;
+}
+
+#email-input{
+    width: 80%;
+    background-color: #E3E3E3;
+    color: #5F5F5F;
+    border: none;
+    padding: 10px 10px;
+}
+
+#submit-button {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #C6948E;
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: 3px solid #C6948E;
+}
+#submit-button:hover{
+    background-color: white;
+    color: #C6948E;
+    border: 3px solid #C6948E;
+}

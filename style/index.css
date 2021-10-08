@@ -126,19 +126,111 @@ body{
 {
     width: 45%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     background-color: white;
     align-items: center;
     position: relative;
+    font-family: 'Roboto', sans-serif;
 }
 
-#product-right div h1{
+#product-right h1
+{
+    font-family: 'Rancho', cursive;
     font-weight: bolder;
-    font-size: 70px;
+    font-size: 48px;
     color: #AF7D77;
 }
 
+
+#no1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 497px;
+    height: 83px;
+    background-color: #592D28;
+    border-radius: 20px;
+    margin-block: 5px;
+}
+
+#no-left
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 12px;
+    background-color: #AF7D77;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    /* text-align: center; */
+    text-decoration: none;
+    padding: 13px 15px;
+    color: white;
+    font-size: 36px;
+}
+
+#no-right
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+#no2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width: 497px;
+    height: 83px;
+    border-radius: 20px;
+    margin-block: 5px;
+    background-color: #683C37;
+    
+}
+
+#no3
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width: 497px;
+    height: 83px;
+    background-color: #592D28;
+    border-radius: 20px;
+    margin-block: 5px;
+    background-color: #7D514C;
+}
+
 #content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#mobile-left h1
+{
+    font-family: 'Rancho', cursive;
+    font-weight: bolder;
+    font-size: 48px;
+    color: #AF7D77;
+}
+
+
+/* #content
 {
     height: 60%;
     display: flex;
@@ -154,11 +246,11 @@ body{
     padding: 0 20px;
     color: #4F4949;
     font-size: 17px;
-}
+} */
 
 #product-left
 {
-    background-image: url(../images/product-img.jpg);
+    background-image: url("../images/product-img.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
@@ -190,6 +282,8 @@ body{
 {
     width: 45%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     background-color: white;
     align-items: center;
@@ -198,7 +292,7 @@ body{
 
 #mobile-right
 {
-    background-image: url(../images/mobile-bg.jpg);
+    background-image: url("../images/mobile-bg.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
@@ -276,7 +370,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 #about-us-banner{
-    background-image: url('../images/spray-spraying.jpg');
+    background-image: url('../images/pat-whelen-QvRc0FUn_yU-unsplash-Cut.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 40vh;
@@ -295,6 +389,7 @@ body{
 }
 
 #vision-mission-container{
+    margin-block: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;

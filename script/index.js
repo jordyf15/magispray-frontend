@@ -45,9 +45,63 @@ Array.from(scrollToAboutUs).forEach((anchor) => {
     });
 });
 
+function closePopUp() {
+    const body = document.querySelector("body");
+    const popUpBg = document.querySelector('#popup-bg');
+    body.removeChild(popUpBg);
+}
+
 function displayPopup() {
     const body = document.querySelector("body");
     const popUpBg = document.createElement('div');
+    popUpBg.id = 'popup-bg';
+    popUpBg.addEventListener('click', closePopUp);
+
+    const textContainer = document.createElement('div');
+    textContainer.id = 'form-text-container';
+
+    const notifyForm = document.createElement('form');
+    notifyForm.id = 'notify-form';
+    notifyForm.addEventListener('click',(e)=>{
+        e.stopPropagation();
+    })
+
+    const titleForm = document.createElement('p');
+    titleForm.id = 'title-form';
+    titleForm.textContent = 'Enter your email address';
+    textContainer.appendChild(titleForm);
+
+    const subtitleForm = document.createElement('p');
+    subtitleForm.id = 'subtitle-form';
+    subtitleForm.textContent = 'so we can let you know when our product is ready';
+    textContainer.appendChild(subtitleForm);
+
+    notifyForm.appendChild(textContainer);
+
+    const emailInput = document.createElement('input');
+    emailInput.type = 'email';
+    emailInput.id = 'email-input';
+    emailInput.placeholder = 'Email Address';
+    emailInput.required = true;
+    notifyForm.appendChild(emailInput);
+
+    const submitButton = document.createElement('button');
+    submitButton.id = 'submit-button';
+    submitButton.textContent = 'Notify Me';
+    notifyForm.appendChild(submitButton);
+
+    const closeButton = document.createElement('button');
+    closeButton.id = 'form-close-button';
+    const closeIcon = document.createElement('i');
+    closeIcon.classList.add('fas');
+    closeIcon.classList.add('fa-times');
+    closeButton.type = 'button';
+    closeButton.appendChild(closeIcon);
+    closeButton.addEventListener('click', closePopUp);
+    notifyForm.appendChild(closeButton);
+
+    popUpBg.appendChild(notifyForm);
+    body.appendChild(popUpBg);
 }
 
 const notifyButton = Array.from(document.getElementsByClassName('notify-button'));

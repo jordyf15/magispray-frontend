@@ -226,6 +226,46 @@ body{
     padding: 13px;
 }
 
+#interested
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: #2C2C2C;
+    text-align: center;
+    min-height: 50vh;
+    background-image: url("../images/mitchell-luo-gbur-TgfCPY-unsplash-Cut.png");
+}
+
+#interested-title
+{
+    font-size: 36px;
+}
+
+#interested-subtitle
+{
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+#interested-button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #C6948E;
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#interested-button a:hover{
+    background-color: white;
+    color: #C6948E;
+    border: 3px solid #C6948E;
+}
+
 #about-us-section{
     min-height: 100vh;
 }

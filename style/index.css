@@ -90,7 +90,7 @@ body{
     margin-bottom: 60px;
     padding: 0 50px;
 }
-#landing-main div a{
+#landing-main div button{
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -98,8 +98,9 @@ body{
     padding: 10px 25px;
     border-radius: 20px;
     margin-top: 20px;
+    border: 3px solid #C6948E;
 }
-#landing-main div a:hover{
+#landing-main div button:hover{
     background-color: white;
     color: #C6948E;
     border: 3px solid #C6948E;
@@ -250,7 +251,7 @@ body{
     margin-bottom: 40px;
 }
 
-#interested-button a{
+#interested-button button{
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -258,9 +259,10 @@ body{
     padding: 10px 25px;
     border-radius: 20px;
     margin-top: 20px;
+    border: 3px solid #C6948E;
 }
 
-#interested-button a:hover{
+#interested-button button:hover{
     background-color: white;
     color: #C6948E;
     border: 3px solid #C6948E;

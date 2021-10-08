@@ -250,7 +250,7 @@ body{
 
 #product-left
 {
-    background-image: url(../images/product-img.jpg);
+    background-image: url("../images/product-img.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
@@ -292,7 +292,7 @@ body{
 
 #mobile-right
 {
-    background-image: url(../images/mobile-bg.jpg);
+    background-image: url("../images/mobile-bg.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
@@ -370,7 +370,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 #about-us-banner{
-    background-image: url('../images/spray-spraying.jpg');
+    background-image: url('../images/pat-whelen-QvRc0FUn_yU-unsplash-Cut.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 40vh;
@@ -389,6 +389,7 @@ body{
 }
 
 #vision-mission-container{
+    margin-block: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;

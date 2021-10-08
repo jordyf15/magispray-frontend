@@ -44,3 +44,13 @@ Array.from(scrollToAboutUs).forEach((anchor) => {
         smoothScroll('#about-us-section', 1000);
     });
 });
+
+function displayPopup() {
+    const body = document.querySelector("body");
+    const popUpBg = document.createElement('div');
+}
+
+const notifyButton = Array.from(document.getElementsByClassName('notify-button'));
+notifyButton.forEach((button)=>{
+    button.addEventListener('click', displayPopup);
+});

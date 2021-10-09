@@ -427,7 +427,7 @@ body{
 }
 
 #team-section{
-    width: 75vw;
+    width: 80vw;
     margin: auto;
     padding: 40px 0;
 }
@@ -441,7 +441,7 @@ body{
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
-    grid-column-gap: 90px;
+    grid-column-gap: 50px;
     grid-row-gap: 35px;
    
 }

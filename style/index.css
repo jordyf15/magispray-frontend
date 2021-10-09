@@ -332,7 +332,7 @@ body{
     min-height: 50vh;
     background-image: url("../images/interested-bg.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 #interested-title
